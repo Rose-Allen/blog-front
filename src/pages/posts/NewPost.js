@@ -4,7 +4,6 @@ import PostForm from "./components/PostForm";
 import client from "../../client";
 
 function NewPost() {
-  const url = "http://localhost:3004/posts";
   const navigate = useNavigate();
   const handlSubmit = async ({ title, body }) => {
     await client.post("/posts", { title, body });
