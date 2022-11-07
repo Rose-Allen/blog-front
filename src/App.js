@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Post from "./pages/posts/Post";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
